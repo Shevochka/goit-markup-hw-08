@@ -1,0 +1,36 @@
+:root {
+    --title-text-color: #212121;
+    --white-primary-color: #ffffff;
+    --primary-text-color: #757575;
+    --accent-color: #2196f3;
+    --projects-bacground-color: #eeeeee;
+    --background-color-team: #f5f4fa;
+    --logo-black-color: #000000;
+    --team-hidden-color: rgba(255, 255, 255, 0.6);
+    --background-color-footer: #2f303a;
+    --header-background-color: #ececec;
+    --background-btn-color: #188ce8;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Fonts */
+  @font-face {
+    font-family: roboto-400;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: roboto-700;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: roboto-500;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  }
+  @font-face {
+    font-family: roboto-900;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+  }
+  @font-face {
+    font-family: raleway-700;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+  }
