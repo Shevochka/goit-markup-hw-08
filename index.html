@@ -21,7 +21,7 @@
 
     <!-- Header -->
 
-    <!-- <header class="header">
+    <header class="header">
         <div class="container header__container">
 
             <nav class="navigation">
@@ -50,18 +50,18 @@
                 </li>
             </ul>
         </div>
-    </header> -->
+    </header>
     <main>
 
         <!-- Effective Solutions -->
 
-        <!-- <section class=" hero section">
-            <div class="container">
+        <section class=" hero section">
+            <div class="container hero-container">
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button" class="hero__btn" width="18px" height="18px" data-modal-open>Замовити
                     послугу</button>
             </div>
-        </section> -->
+        </section>
 
         <!-- Features -->
 
@@ -87,7 +87,8 @@
                             </svg>
                         </a>
                         <h3 class="features-list__title">Пунктуальність</h3>
-                        <p class="features-list__text">Завдання організації, особливо рамки і місце навчання кадрів тягне
+                        <p class="features-list__text">Завдання організації, особливо рамки і місце навчання кадрів
+                            тягне
                             у
                             себе.
                         </p>
@@ -119,15 +120,24 @@
 
         <!-- Occupation -->
 
-        <!-- <section class="occupation section">
+        <section class="occupation section">
             <div class="container">
                 <h2 class="occupation__title">Чим ми займаємося</h2>
                 <ul class="occupation-list list">
 
                     <li class="occupation-list__item">
                         <a href="" class="occupation-list__link">
-                            <img class="occupation-list__photo" src="./images/ocuoation_1.jpg" alt="Чим ми займаємось"
+                            <picture>
+                                <source
+                                srcset="./images/occupation-1-1x.jpg 1x, ./images/occupation-1-2x.jpg 2x"
+                                media="(min-width: 1200px)"
+                                >
+                                <img class="occupation-list__photo" 
+                            srcset="./images/occupation-1-1x.jpg 1x, ./images/occupation-1-2x.jpg 2x"
+                            src="./images/occupation-1-1x.jpg" alt="Чим ми займаємось"
                                 width="370" height="294" />
+                            </picture>
+                            
                             <p class="occupation-list__text">
                                 Десктопні додатки
                             </p>
@@ -136,8 +146,16 @@
 
                     <li class="occupation-list__item">
                         <a href="" class="occupation-list__link">
-                            <img class="occupation-list__photo" src="./images/ocuoation_2.jpg" alt="Чим ми займаємось"
+                            <picture>
+                                <source
+                                srcset="./images/occupation-2-1x.jpg 1x, ./images/occupation-2-2x.jpg 2x"
+                                media="(min-width: 1200px)"
+                                >
+                                <img class="occupation-list__photo" 
+                            srcset="./images/occupation-2-1x.jpg 1x, ./images/occupation-2-2x.jpg 2x"
+                            src="./images/occupation-2-1x.jpg" alt="Чим ми займаємось"
                                 width="370" height="294" />
+                            </picture>
                             <p class="occupation-list__text">
                                 Мобільні додатки
                             </p>
@@ -146,18 +164,24 @@
 
                     <li class="occupation-list__item">
                         <a href="" class="occupation-list__link">
-                            <img class="occupation-list__photo" src="./images/ocuoation_3.jpg" alt="Чим ми займаємось"
+                            <picture>
+                                <source
+                                srcset="./images/occupation-3-1x.jpg 1x, ./images/occupation-3-2x.jpg 2x"
+                                media="(min-width: 1200px)"
+                                >
+                                <img class="occupation-list__photo" 
+                            srcset="./images/occupation-3-1x.jpg 1x, ./images/occupation-3-2x.jpg 2x"
+                            src="./images/occupation-3-1x.jpg" alt="Чим ми займаємось"
                                 width="370" height="294" />
+                            </picture>
                             <p class="occupation-list__text">
                                 Дизайнерські рішення
                             </p>
                         </a>
                     </li>
-
                 </ul>
             </div>
-
-        </section> -->
+        </section>
 
 
 
@@ -169,7 +193,26 @@
                 <h2 class="team__title">Наша команда</h2>
                 <ul class="cards list">
                     <li class="cards__item">
-                        <img src="./images/img(2).jpg" alt="Ігор Дем'яненко" width="270" height="260" />
+                        <picture>
+                            <source
+                            srcset="./images/img-1.jpg 1x,
+                        ./images/img-1-2x.jpg 2x"
+                        media="min-width: 1200px" >
+                            <source
+                            srcset="./images/img-tabl-1-1x.jpg 1x,
+                        ./images/img-tabl-1-2x.jpg 2x"
+                        media="min-width: 768px">
+                            <source
+                            srcset="./images/img-mob-1-1x.jpg 1x,
+                        ./images/img-mob-1-2x.jpg 2x"
+                        media="max-width: 767px">
+                        <img
+                        src="./images/img-1.jpg" 
+                        alt="Ігор Дем'яненко" 
+                        width="270" 
+                        height="260" />
+                        </picture>
+                        
                         <div class="cards-content">
                             <h3 class="cards-content__name">Ігор Дем'яненко</h3>
                             <p class="cards-content__position" lang="en">Product Designer</p>
@@ -207,7 +250,26 @@
                     </li>
 
                     <li class="cards__item">
-                        <img src="./images/img(3).jpg" alt="Ольга Рєпіна" width="270" height="260" />
+                        <picture>
+                            <source
+                            srcset="./images/img-2.jpg 1x,
+                        ./images/img-2-2x.jpg 2x"
+                        media="min-width: 1200px" >
+                            <source
+                            srcset="./images/img-tabl-2-1x.jpg 1x,
+                        ./images/img-tabl-2-2x.jpg 2x"
+                        media="min-width: 768px">
+                            <source
+                            srcset="./images/img-mob-2-1x.jpg 1x,
+                        ./images/img-mob-2-2x.jpg 2x"
+                        media="max-width: 767px">
+                        <img 
+                        src="./images/img-2.jpg" 
+                        alt="Ольга Рєпіна" 
+                        width="270" 
+                        height="260" />
+                        </picture>
+                        
                         <div class="cards-content">
                             <h3 class="cards-content__name">Ольга Рєпіна</h3>
                             <p class="cards-content__position" lang="en">Frontend Developer</p>
@@ -245,7 +307,26 @@
                     </li>
 
                     <li class="cards__item">
-                        <img src="./images/img(4).jpg" alt="Микола Тарасов" width="270" height="260" />
+                        <picture>
+                            <source
+                            srcset="./images/img-3.jpg 1x,
+                        ./images/img-3-2x.jpg 2x"
+                        media="min-width: 1200px" >
+                            <source
+                            srcset="./images/img-tabl-3-1x.jpg 1x,
+                        ./images/img-tabl-3-2x.jpg 2x"
+                        media="min-width: 768px">
+                            <source
+                            srcset="./images/img-mob-3-1x.jpg 1x,
+                        ./images/img-mob-3-2x.jpg 2x"
+                        media="max-width: 767px">
+                        <img 
+                        src="./images/img-3.jpg" 
+                        alt="Микола Тарасов" 
+                        width="270" 
+                        height="260" />
+                        </picture>
+                        
                         <div class="cards-content">
                             <h3 class="cards-content__name">Микола Тарасов</h3>
                             <p class="cards-content__position" lang="en">Marketing</p>
@@ -283,7 +364,26 @@
                     </li>
 
                     <li class="cards__item">
-                        <img src="./images/img(5).jpg" alt="Михайло Єрмаков" width="270" height="260" />
+                        <picture>
+                            <source
+                            srcset="./images/img-4.jpg 1x,
+                        ./images/img-4-2x.jpg 2x"
+                        media="min-width: 1200px" >
+                            <source
+                            srcset="./images/img-tabl-4-1x.jpg 1x,
+                        ./images/img-tabl-4-2x.jpg 2x"
+                        media="min-width: 768px">
+                            <source
+                            srcset="./images/img-mob-4-1x.jpg 1x,
+                        ./images/img-mob-4-2x.jpg 2x"
+                        media="max-width: 767px">
+                        <img 
+                        src="./images/img-4.jpg" 
+                        alt="Михайло Єрмаков" 
+                        width="270" 
+                        height="260" />
+                        </picture>
+                        
                         <div class="cards-content">
                             <h3 class="cards-content__name">Михайло Єрмаков</h3>
                             <p class="cards-content__position" lang="en">UI Designer</p>
@@ -323,7 +423,7 @@
             </div>
         </section>
 
-        <!-- <section class="clients section">
+        <section class="clients section">
             <h2 class="clients-title">Постійні клієнти</h2>
             <div class="container clients-box">
                 <ul class="clients-list list">
@@ -369,12 +469,9 @@
                             </svg>
                         </a>
                     </li>
-
-
                 </ul>
             </div>
-
-        </section> -->
+        </section>
 
     </main>
     <!-- Footer -->
