@@ -26,7 +26,8 @@
 }
 .clients-item {
   width: calc((100% - 60px) / 2);
-
+  height: 92px;
+  
   @include tablet{
     width: calc((100% - 90px) / 3);
     min-width: 226px;
